@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header {
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  .content {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .gallery {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .gallery img {
+    width: 200px;
+    height: auto;
+    border: 2px solid gray;
+    border-radius: 5px;
+  }
+  
+  .back {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .back:hover {
+    background-color: darkred;
+  }
+  
